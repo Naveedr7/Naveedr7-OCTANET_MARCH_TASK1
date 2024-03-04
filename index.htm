@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e1593dce3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo" style="font-family: inter;">WANDER</h1>
+      <ul class="nav-link">
+        <li class="Active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tour</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li><a  class="ctn" href="#">Contact Us</a></li>
+      </ul>
+      <img src="./menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>WELCOME TO WANDER</h2>
+            <div class="line"></div>
+            <h1>LET THE JOURNEY BEGIN</h1>
+            <a href="#" class="ctn">Book Now</a>
+        </div>
+    </header>
+    <!--Events-->
+    <section class="events">
+        <div class="tittle">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="scuba.jpg" alt="scuba diving" width="556" height="373">
+                <h4>SCUBA DIVING</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem assumenda labore molestiae voluptatem, cumque eveniet! Fugiat rem harum recusandae! Corrupti a illum ipsam pariatur enim quaerat aut, voluptatem nihil ex.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="Surfing.jpg" alt="Surfing" width="556" height="373">
+                <h4>SURFING</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem assumenda labore molestiae voluptatem, cumque eveniet! Fugiat rem harum recusandae! Corrupti a illum ipsam pariatur enim quaerat aut, voluptatem nihil ex.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+       </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae earum repellat totam optio eum natus eos, soluta ad! Eaque amet qui alias nesciunt</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>    
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, commodi repudiandae hic sequi natus suscipit iure dolore vero in, laboriosam blanditiis aut beatae minus expedita debitis reiciendis ut eaque voluptates!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="campaign.jpg" alt="" width="336" height="262">
+                    <img src="car.jpg" alt=""  width="352" height="262">
+                    <img src="snow.jpg" alt=""  width="341`" height="282">
+                    <img src="snow2.jpg" alt=""  width="352" height="283">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 fifth Avenue, NY 10160, Delhi, INDIA | Phone: 800-123-456 | Email: Contact@example.com</p>
+        <p>Copyright ©️ 2024 Mohammed Naveed Rahman</p>
+        <div class="icons">
+       <a href=""><i class="fa-brands fa-square-facebook fa-lg" style="color: #000000;"></i></a>
+       <a href=""><i class="fa-brands fa-instagram fa-lg" style="color: #000000;"></i></a>
+       <a href="https://www.linkedin.com/in/mohammad-naveed-rahman-367901224/" target="_blank"><i class="fa-brands fa-linkedin fa-lg" style="color: #000000;"></i></a>
+       <a href="https://github.com/Naveedr7" target="_blank"><i class="fa-brands fa-github fa-lg" style="color: #000000;"></i></a>
+        </div>
+    </section>
+    <script>
+        const menubtn =document.querySelector('.menu-btn')
+        const navlink =document.querySelector('.nav-link')
+
+        menubtn.addEventListener('click',()=>{
+            navlink.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
